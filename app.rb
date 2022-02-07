@@ -10,7 +10,7 @@ get '/secret' do
 end
 
 get '/qwerty' do
-  erb(:qwerty)
+  erb(:qwerty)  #embedded ruby helps evaluate ruby code and embed the answer in ruby code
 end
 
 
