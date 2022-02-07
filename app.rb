@@ -15,5 +15,7 @@ end
 
 
 get '/cat' do
-    '<img src="https://i.imgur.com/jFaSxym.png">'   # code for pushing an image to a website img src is the source followed by the data source
+    '<div style="border:4px dashed red;">
+    <img src="https://i.imgur.com/jFaSxym.png">
+    </div>'   # code for pushing an image to a website img src is the source followed by the data source
 end
