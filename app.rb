@@ -9,13 +9,11 @@ get '/secret' do
     'secret message'
 end
 
-get '/secret2' do
-  'qwerty'
+get '/qwerty' do
+  erb(:qwerty)
 end
 
 
 get '/cat' do
-    '<div style="border:4px dashed red;">
-    <img src="https://i.imgur.com/jFaSxym.png">
-    </div>'   # code for pushing an image to a website img src is the source followed by the data source
+  erb(:index)
 end
